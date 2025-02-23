@@ -1,0 +1,24 @@
+.days {
+  display: grid;
+  grid-gap: 4px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  grid-template-columns: repeat(auto-fill, 16px);
+  grid-template-rows: repeat(7, 16px);
+  grid-auto-flow: column;
+  box-shadow: 0 15px 35px 0 rgba(42, 51, 83, 0.12),
+    0 5px 15px rgba(0, 0, 0, 0.06);
+  width: 1050px;
+  align-items: center;
+  justify-content: center;
+}
+.day {
+  height: 16px;
+  background-color: #fef2d4;
+}
+
+.day--active {
+  background-color: #ff9807;
+}

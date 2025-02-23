@@ -1,11 +1,14 @@
 import Stopwatch from "./Components/Stopwatch/Stopwatch";
 import "./App.css";
+import Calendar from "./Components/Calendar/Calendar";
 
 function App() {
-  let currentTime = new Date();
-  console.log(currentTime);
-
-  return <Stopwatch />;
+  return (
+    <>
+      <Stopwatch />
+      <Calendar />
+    </>
+  );
 }
 
 export default App;
