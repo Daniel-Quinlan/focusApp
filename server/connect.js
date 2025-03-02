@@ -1,5 +1,7 @@
-const { MongoClient } = require("mongodb");
-require("dotenv").config({ path: "./config.env" });
+import { MongoClient } from "mongodb";
+import dotenv from "dotenv";
+
+dotenv.config({ path: "./config.env" });
 
 async function main() {
   const Db = process.env.ATLAS_URI;
